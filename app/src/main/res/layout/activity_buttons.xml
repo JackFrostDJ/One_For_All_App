@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buttons"
+    android:background="#2D7DD2">
+
+    <Button
+        android:id="@+id/btn_tts"
+        android:textColor="#FFFFFF"
+        android:background="#ED9B40"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="400dp"
+        android:text="Text to Speech"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_stt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textColor="#FFFFFF"
+        android:background="#2D7DD2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="202dp"
+        android:text="Speech to Text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textColor="#FFFFFF"
+        android:background="#173A3E"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        android:text="Maps"
+        android:textSize="20sp" />
+
+</RelativeLayout>
